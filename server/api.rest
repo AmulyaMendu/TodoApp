@@ -1,0 +1,30 @@
+
+
+###
+
+POST http://localhost:8080/signup/add
+Accept: application/json
+Content-Type: application/json
+
+
+{
+   
+    "email":"ravinder04@gmail.com",
+  "password":"ravi",
+  "confirmpassword":"ravi"
+
+}
+###
+
+POST http://localhost:8080/signin/login
+Accept: application/json
+Content-Type: application/json
+
+
+{
+   
+    "email":"ravinder04@gmail.com",
+  "password":"ravi"
+ 
+
+}
